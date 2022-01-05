@@ -1,0 +1,4 @@
+Nazwa bazy danych - > biuro_podrozy
+Konto administratora: l: admin, h:bartek
+Niektóre linki prowadzą na http://localhost/biuro_podrozy/...
+Strona tworzona na rozdzielczosc 1980px dlatego na mniejszych ekranach moze nie wygladac za dobrze
