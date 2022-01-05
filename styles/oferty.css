@@ -1,0 +1,217 @@
+@font-face {
+    font-family: ProximaNova;
+    src: url("fonts/Proxima-Nova-Thin.otf") format("opentype");
+}
+
+@font-face {
+    font-family: ProximaNova-Regular;
+    src: url("fonts/Proxima-Nova-Regular.otf") format("opentype");
+}
+
+@font-face {
+    font-family: ProximaNova-Bold;
+    src: url("fonts/Proxima-Nova-Bold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Gilroy-ExtraBold;
+    src: url("fonts/Gilroy-ExtraBold.otf") format("opentype");
+}
+
+@font-face {
+    font-family: Gilroy-Medium;
+    src: url("fonts/Gilroy-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: Gilroy-Regular;
+    src: url("fonts/Gilroy-Regular.ttf") format("truetype");
+}
+
+html, body {
+  background:rgba(0,0,0,0.01);
+}
+
+.oferta:first-child {
+  margin-top:60px;
+}
+
+.oferta {
+  width:100%;
+  float:left;
+  height:250px;
+  border-radius:2px;
+  border:1px solid #ccc;
+  margin-bottom:60px;
+  background:#fff;
+}
+
+.oferta-img {
+  background:url(../images/japan.jpeg);
+  width:350px;
+  height:250px;
+  float:left;
+  border-radius:1px 0px 0px 1px;
+  background-size:cover;
+}
+
+.oferta-sub, .oferta-sub2 {
+  width:calc(60% - 175px);
+  height:250px;
+  padding:25px 20px;
+  box-sizing:border-box;
+  float:left;
+  color:#000;
+  position:relative;
+  font-family:Roboto;
+  font-weight:300;
+  font-size:16px;
+}
+
+.oferta-sub2 {
+  width:calc(40% - 175px);
+}
+
+.oferta-title {
+  font-size:24px;
+  font-family:'Roboto';
+  font-weight:300;
+}
+
+.oferta-info-row {
+  width:100%;
+  height:30px;
+  line-height:30px;
+  float:left;
+}
+
+.oferta-subtitle {
+  font-size:16px;
+  display:block;
+  margin-top:4px;
+  font-family:'Roboto';
+  font-weight:300;
+  margin-bottom:16px;
+}
+
+.car {
+  margin-right:6px;
+  background: -webkit-linear-gradient(#0575E6, #021B79);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.plane {
+  transform: rotate(-25deg);
+  margin-right:6px;
+  background: -webkit-linear-gradient(#0575E6, #021B79);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.calendar {
+  margin-right:8px;
+  background: -webkit-linear-gradient(#0575E6, #021B79);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cena {
+  margin-top:110px;
+  float:right;
+  text-align:right;
+  width:100%;
+  font-size:22px;
+}
+
+.nowa-cena {
+  margin-top:0px;
+}
+
+.see-more {
+  float:right;margin-top:10px;padding:10px 24px;background:#0054a6;border-radius:4px;color:#fff
+}
+
+.food {
+  font-size:16px!important;
+  margin-right:8px;
+  background: -webkit-linear-gradient(#0575E6, #021B79);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.oferta-promocja {
+  margin:10px;
+  padding:4px 12px;
+  display:inline-block;
+  border-radius:4px;
+  font-size:14px;
+  font-weight:700;
+  font-family:'Roboto';
+  text-transform:uppercase;
+  background:#0054a6;
+  color:#fff;
+}
+
+.tags-container {
+  width:100%;
+  float:left;
+  margin-bottom:20px;
+}
+
+.tags-stars {
+  background:#6BBB00;
+  color:#fff;
+  padding:6px 12px;
+  border-radius:30px;
+  font-size:13px;
+  margin-right:8px;
+}
+
+.fa-star {
+  color: #fff;
+  margin: 0px 4px 0px 0px;
+  position: relative;
+  top: -1px;
+  font-size:10px;
+  background: -webkit-linear-gradient(#fff, #fff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.tags {
+  background:#eee;
+  color:#333;
+  padding:6px 12px;
+  border-radius:30px;
+  font-size:13px;
+  margin-right:8px;
+}
+
+.zobacz-oferte {
+  padding:8px 24px;
+  border-radius:4px;
+  background:#0054a6;
+  float:right;
+  position:absolute;
+  bottom:0;
+  color:#fff;
+  font-family: 'Roboto';
+  font-weight: 300;
+}
+
+#sort-results {
+  font-size:24px;
+  margin:40px 0px;
+}
+
+.percent {
+  font-size: 10px;
+  position: relative;
+  margin-left: 1px;
+  top: -1px;
+}
+
+.promocja-LATO-2021 {
+  background:#DC143C;
+}
